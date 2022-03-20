@@ -10,7 +10,6 @@ g = 10.
 L = 1.
 lamb=20
 omega0 = np.sqrt(g/L)
-# fonctions de base
 def F(Y,t):
     """second membre de l'EDO"""
     global omega0
